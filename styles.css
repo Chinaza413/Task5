@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d6581;
+}
+
+.nav {
+  font-family: sans-serif;
+  width: 100%;
+  height: 10vh;
+  background-color: #00a2ff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #003e68;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav p {
+  margin: auto;
+}
+
+.nav p:nth-child(1) {
+  font-weight: bolder;
+  margin-right: 0px;
+}
+
+.nav p:nth-child(2) {
+  margin-left: 10px;
+  color: #fff;
+}
+
+.next, .ok {
+  margin: auto;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #003e68;
+  text-align: center;
+}
+
+.next:hover, .ok:hover {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  padding-top: 10vh;
+}
+
+.question-cont-main {
+  margin: auto;
+  margin-bottom: 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #003e68;
+  font-size: 12pt;
+  text-align: center;
+}
+
+.options-cont-main {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #003e68;
+}
+
+.options {
+  margin: auto;
+  margin-top: 10px;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.options p:nth-child(1) {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.options p:nth-child(2) {
+  margin: auto;
+  margin-left: 20px;
+}
+
+.options:hover {
+  cursor: pointer;
+}
+
+.score-cont-main {
+  margin: auto;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: 0px;
+  background-color: #00a2ff;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #003e68;
+}
+
+.score-cont, .fin-score {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #fff;
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.score-cont p, .fin-score p {
+  margin: auto;
+  font-size: 20pt;
+}
+
+.score-cont span, .fin-score span {
+  color: #00a2ff;
+}
+
+.correct {
+  background-color: yellowgreen;
+  color: #fff;
+}
+
+.wrong {
+  background-color: red;
+  color: #fff;
+}
+
+.final-score {
+  width: 100%;
+  height: 100vh;
+  background-color: #00a2ff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  display: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #003e68;
+}
+
+.final-score div {
+  margin-top: 30px;
+}
+
+.your-score {
+  margin: auto;
+  margin-bottom: 0px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fin-score {
+  margin-bottom: 0px;
+}
+
+.ok {
+  text-decoration: none;
+  margin-top: 30px;
+}
